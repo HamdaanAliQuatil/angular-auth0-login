@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { AuthButtonComponent } from './auth-button/auth-button.component';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -15,9 +16,8 @@ import { AuthButtonComponent } from './auth-button/auth-button.component';
     BrowserModule,
     AppRoutingModule,
     AuthModule.forRoot({
-      // domain: 'YOUR_AUTH0_DOMAIN',
-      // clientId: 'YOUR_AUTH0_CLIENT_ID'
-  
+      domain: environment.AUTH0_DOMAIN,
+      clientId: environment.AUTH0_CLIENT_ID
     }),
   ],
   providers: [],
