@@ -24,4 +24,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+A complete walkthrough of the project can be found in [Integrating Auth0 Login in your Angular Application](https://medium.com/@q.hmd08/integrating-auth0-login-in-your-angular-application-a57fda87452).
